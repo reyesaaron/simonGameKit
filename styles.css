@@ -1,16 +1,11 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #7e0000;
 }
 
-@font-face {
-  font-family: karma;
-  src: url("/font/karma\ future.ttf");
-} 
-
 #level-title, #best {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5rem;
   margin:  5% 0%;
   color: #FEF2BF;
 }
@@ -35,7 +30,7 @@ body {
     width: 300px;
   }
   #level-title, #best {
-    font-size: 4rem;
+    font-size: 9rem;
     margin:  10% 0%;
   }
 } 

@@ -23,7 +23,7 @@ function nextSequence () {
     gamePattern.push(randomChosenColor);
     
     level++;
-    $("#level-title").html("Level " + level);
+    $("#level-title").html("Level " + level + " 🚩");
 
     animationGame(randomChosenColor);
 }
