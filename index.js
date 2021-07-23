@@ -106,10 +106,10 @@ function checkAnswer(userLevel) {
         console.log("wrong");
         var wrong = new Audio("sounds/wrong.mp3");
         wrong.play();
-        $("body").css("background-color", "red");
+        $("body").addClass("game-over");
         
         setTimeout(() => {
-            $("body").css("background-color", "#7e0000");
+            $("body").removeClass("game-over");
         }, 300);
 
 
