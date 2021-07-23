@@ -109,7 +109,7 @@ function checkAnswer(userLevel) {
         $("body").css("background-color", "red");
         
         setTimeout(() => {
-            $("body").css("background-color", "#011F3F");
+            $("body").css("background-color", "#7e0000");
         }, 300);
 
 
