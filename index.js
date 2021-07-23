@@ -114,7 +114,7 @@ function checkAnswer(userLevel) {
         $("#level-title").html("Game Over! Click Here to Restart")
 
         if (level > best){
-            best = level;
+            best = level - 1;
             console.log("Level :" + level + "  Best : " + best);
             $("#best").html("Best: " + best);
         }
