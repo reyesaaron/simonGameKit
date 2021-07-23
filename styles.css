@@ -28,19 +28,17 @@ body {
   width: 200px;
 }
 
-@media (max-width: 800px){
+@media (max-width:980px){
   .btn {
     padding: 20px;
-    width: 150px;
-    margin: 1%;
+    margin: 5%;
+    width: 300px;
   }
   #level-title, #best {
-    font-size: 2rem;
+    font-size: 4rem;
+    margin:  10% 0%;
   }
-  .container-fluid {
-    width: 100%;
-  }
-}
+} 
 
 .game-over {
   background-color: red;
