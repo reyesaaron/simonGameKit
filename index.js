@@ -7,8 +7,10 @@ var level = 0;
 var started = false;
 var best = 0;
 
-var bgmusic = new Audio("sounds/bg.mp3");
-bgmusic.play();
+$(document).ready(() => {
+    var bgmusic = new Audio("sounds/bg.mp3");
+    bgmusic.play();
+})
 
 // Random Next Pattern
 function nextSequence () {
